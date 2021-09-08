@@ -1,6 +1,7 @@
 import {Directive, OnInit, ElementRef} from '@angular/core';
 
 @Directive({
+  // select it like an attribute
   selector: '[appBasicHighlight]'
 })
 export class BasicHighlightDirective implements OnInit {
